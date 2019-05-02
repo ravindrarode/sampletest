@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toobar_height">75.0dip</dimen>
+    <dimen name="tabbar_height">80.0dip</dimen>
+    <dimen name="abc_edit_text_inset_top_material">30.0dip</dimen>
+    <dimen name="five_dp_padding">15.0dip</dimen>
+    <dimen name="small_text_size">18dp</dimen>
+    <dimen name="image_height">150dp</dimen>
+    <dimen name="medium_text_size">25dp</dimen>
+    <dimen name="semi_medium_text_size">22dp</dimen>
+
+    <dimen name="small_left_margin">20dp</dimen>
+    <dimen name="medium_left_margin">30dp</dimen>
+    <dimen name="very_small_left_margin">10dp</dimen>
+
+    <dimen name="progress_bar_height">200.0dip</dimen>
+    <dimen name="progress_bar_width">200.0dip</dimen>
+    <dimen name="close_button_padding">20.0dip</dimen>
+    <dimen name="horizontal_margin">24.0dip</dimen>
+    <dimen name="vertical_margin">24.0dip</dimen>
+    <dimen name="menu_text_size">22.0sp</dimen>
+    <dimen name="landing_login_text_size">20.0sp</dimen>
+    <dimen name="message_top_margin">25.0dip</dimen>
+    <dimen name="login_button_text_size">20.0sp</dimen>
+    <dimen name="login_button_height">60.0dip</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+    <dimen name="activity_horizontal_margin">24.0dip</dimen>
+    <dimen name="login_edit_text_height">60.0dip</dimen>
+    <dimen name="edit_text_padding">5.0dip</dimen>
+
+    <dimen name="picasso_image_width">600dp</dimen>
+    <dimen name="picasso_image_height">600dp</dimen>
+    <dimen name="cart_list_image_height">180.0dip</dimen>
+    <dimen name="cart_list_image_width">180.0dip</dimen>
+
+    <dimen name="image_details_height">210dp</dimen>
+
+</resources>

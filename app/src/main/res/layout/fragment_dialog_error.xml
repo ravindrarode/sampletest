@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:padding="@dimen/close_button_padding"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/horizontal_margin"
+        android:paddingRight="@dimen/horizontal_margin"
+        android:paddingBottom="@dimen/vertical_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal_margin"
+        android:layout_marginRight="@dimen/horizontal_margin"
+        android:layout_marginBottom="@dimen/horizontal_margin"
+        android:layout_below="@+id/img_close">
+
+        <com.iserve.retrofitdemo.customview.AppTextViewMedium
+            android:textSize="@dimen/menu_text_size"
+            android:textColor="@color/colorPrimary"
+            android:gravity="left"
+            android:id="@+id/txt_page_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/error"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <com.iserve.retrofitdemo.customview.AppTextView
+            android:textSize="@dimen/landing_login_text_size"
+            android:gravity="left"
+            android:id="@+id/txt_page_sub_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/message_top_margin"
+            android:text=""
+            android:layout_below="@+id/txt_page_title"
+            android:layout_alignParentLeft="true" />
+
+        <com.iserve.retrofitdemo.customview.AppButton
+            android:textSize="@dimen/login_button_text_size"
+            android:textColor="@color/white"
+            android:id="@+id/btn_accept"
+            android:background="@color/colorPrimary"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="@android:string/ok"
+            android:layout_below="@+id/txt_page_sub_title"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

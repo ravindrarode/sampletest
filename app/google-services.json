@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "430187461707",
+    "firebase_url": "https://retrofit-kotlie-demo.firebaseio.com",
+    "project_id": "retrofit-kotlie-demo",
+    "storage_bucket": "retrofit-kotlie-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430187461707:android:da9886f5432ab619",
+        "android_client_info": {
+          "package_name": "com.iserve.retrofitdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430187461707-e401c7kp2aejbeq07h1h6dikaim7cf9l.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "430187461707-e401c7kp2aejbeq07h1h6dikaim7cf9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX-_aOgoGIxuSYVkOElk_kW8zYmxd6mHA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
